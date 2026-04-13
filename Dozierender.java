@@ -57,4 +57,7 @@ public class Dozierender {
             }
         }
     }
+    public void studentHinzufuegen(Lehrveranstaltung lv, Studierender s) {
+    lv.studierendenHinzufuegen(s);
+}
 }
